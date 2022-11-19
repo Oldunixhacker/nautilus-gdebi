@@ -16,7 +16,9 @@ easily, by right-clicking and selecting "Install Software".
 
 ## Install
 
-There's no package, but you can install manually:
+You must have `gdebi-gtk` installed.
+
+There's no package for this extension, but you can install manually:
 
 1. Run the following command to create the folder where Nautilus scripts
    are located: `mkdir ~/.local/share/nautilus-python/extensions`
