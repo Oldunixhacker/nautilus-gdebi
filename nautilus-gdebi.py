@@ -29,6 +29,6 @@ class GNOMEGDebi(GObject.GObject, Nautilus.MenuProvider):
         item.connect('activate', self.menu_activate_cb, file)
         return item,
 
-    def get_background_items(self, window, file):
+   def get_background_items(self, window, file):
         return None
 
