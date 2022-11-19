@@ -12,7 +12,7 @@ Debian. Also, there are a few cases when GNOME Software, which creates the
 where Software is replaced with the more advanced Pamac.
 
 This Nautilus Python add-on adds the option to install the package you have
-easily, by right-clicking and selecting "Install Software".
+easily, by right-clicking and selecting "Install Debian Package".
 
 ## Install
 
