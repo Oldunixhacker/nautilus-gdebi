@@ -1,3 +1,5 @@
+# Nautilus context menu item to install .deb packages.
+
 from gi.repository import Nautilus, GObject, Gio
 import subprocess
 
@@ -17,7 +19,6 @@ class GdebiNautilus(GObject.GObject, Nautilus.MenuProvider):
 
         file = files[0]
 
-        # We're only going to put ourselves on images context menus
         if not file.get_mime_type() in SUPPORTED_FORMATS:
             return
 
