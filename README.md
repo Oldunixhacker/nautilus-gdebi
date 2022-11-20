@@ -1,5 +1,7 @@
 # GDebi Package Installer for Nautilus
 
+*Note: This extension does not support the new libadwaita Files. GNOME caused a breaking change causing several Nautilus extensions to break. Downgrade to a lower version of Nautilus if you have version 43. If you have any solutions, feel free to open a pull request! ;)*
+
 Installs Debian packages quickly with the Nautilus (GNOME Files) file context
 menu.
 
