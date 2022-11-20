@@ -16,7 +16,7 @@ easily, by right-clicking and selecting "Install Debian Package".
 
 ## Install
 
-You must have `gdebi-gtk` installed.
+You must have `gdebi` installed.
 
 There's no package for this extension, but you can install manually:
 
